@@ -4,7 +4,7 @@ and the post-processed C.glutamicum dataset from
 
 
 ##Data
-
+```
 ACTIVITY-CELL-TRACKING
 └───data  (contains preprocessed (segmented) datasets with different frame rates)
     └───N  (contains the dataset with N min frame rate)
@@ -14,5 +14,5 @@ ACTIVITY-CELL-TRACKING
     ...    
 └───track.py (contains our tracking code)
 └───utils.pt (contains some helper functions, i.e. Activity map and Gaussisan map generation)
-
+```
 
