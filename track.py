@@ -10,7 +10,7 @@ from utils import activity_map, connect, generatedic
 import glob
 from tifffile import imsave
 
-folder="my_data/12/"
+folder="data/12/"
 
 imgslist=sorted(glob.glob(folder+"im/*.tif"))
 maskslist=sorted(glob.glob(folder+"seg/*.tif"))
